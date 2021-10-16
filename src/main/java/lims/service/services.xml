@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes" ?>
+<!DOCTYPE services>
+<services>
+	<service interface="IFlightSvc" implementation="com.mycompany.frs_maven.service.hibernate_svc.FlightSvcHibernateImpl" />
+	<service interface="ITravelerSvc" implementation="com.mycompany.frs_maven.service.hibernate_svc.TravelerSvcHibernateImpl" />
+	<service interface="ILoginSvc" implementation="com.mycompany.frs_maven.service.LoginSvcImpl" />
+</services>
